@@ -1,0 +1,14 @@
+mails:
+  - from: 
+      name: "Test Mail" # optional
+      email: "test.mail@testmail.id"
+    to:
+      - name: "Test Mail 2" # optional
+        email: "test.mail2@testmail.id"
+    subject: "Test Sending Email Using SGCLD"
+    content:
+      type: "text/plain"
+      value: "Content of email"
+    attachments:
+      - path: "examples/files/addresses.csv"
+      - path: "examples/files/values.yaml"

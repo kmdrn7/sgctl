@@ -1,0 +1,4 @@
+application_name: test-api
+application_version: 1.0.0.0
+application_port: 80
+application_healthcheck: /healthz
